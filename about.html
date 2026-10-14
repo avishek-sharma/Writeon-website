@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Writeon Research and Analytics (P.) Ltd.</title>
+  
+  <!-- Official Favicon Suite -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=2">
+  <link rel="shortcut icon" href="images/favicon.ico?v=2">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==============================================
+       HEADER / NAVBAR
+  =============================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" aria-label="Writeon Research and Analytics Home">
+        <div class="logo-icon">
+          <img src="images/Company logo.png" alt="Writeon Research and Analytics Logo" class="brand-logo-img">
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Writeon Research</span>
+          <span class="logo-sub">AND ANALYTICS (P.) LTD.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link ">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="services.html" class="nav-link ">Services</a>
+        <a href="contact.html" class="nav-link ">Contact</a>
+      </nav>
+
+      <!-- Header CTA Button -->
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-pill">
+          Get in Touch <span class="arrow">&rarr;</span>
+        </a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="mobile-nav-link ">Home</a>
+      <a href="about.html" class="mobile-nav-link active">About</a>
+      <a href="services.html" class="mobile-nav-link ">Services</a>
+      <a href="contact.html" class="mobile-nav-link ">Contact</a>
+      <a href="contact.html" class="btn btn-primary btn-pill mobile-cta">Get in Touch &rarr;</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 20 Full-Website Background Animation: Fixed Viewport Research Data & Wave Canvas -->
+    <canvas id="siteAmbientCanvas" class="site-ambient-canvas" aria-hidden="true"></canvas>
+
+    <section class="section about-section" id="about">
+      <!-- Background Shapes -->
+      <div class="bg-shape blob-peach blob-about liquid-blob-1"></div>
+
+      <div class="container about-container">
+        
+        <!-- About Content (Left Column) -->
+        <div class="about-content">
+          <div class="eyebrow-tag">ABOUT US</div>
+          <h2 class="section-title">
+            Driven by Purpose.<br>
+            Committed to <span class="text-accent">Excellence.</span>
+          </h2>
+          <p class="about-lead">
+            Writeon Research and Analytics (P.) Ltd. is a research consulting and capacity building organization dedicated to delivering high-quality research solutions and statistical expertise.
+          </p>
+
+          <!-- Core Value Cards -->
+          <div class="value-cards">
+            
+            <div class="value-item">
+              <div class="value-icon icon-mint">
+                <!-- Compass / Mission Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+              </div>
+              <div class="value-text">
+                <h3 class="value-title">Our Mission</h3>
+                <p class="value-desc">To empower researchers and organizations with research excellence, analytical insights, and practical solutions.</p>
+              </div>
+            </div>
+
+            <div class="value-item">
+              <div class="value-icon icon-purple">
+                <!-- Target / Vision Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="2"/><path d="M12 2v4"/><path d="M12 18v4"/><path d="M4.93 4.93l2.83 2.83"/><path d="M16.24 16.24l2.83 2.83"/><path d="M2 12h4"/><path d="M18 12h4"/><path d="M4.93 19.07l2.83-2.83"/><path d="M16.24 7.76l2.83-2.83"/></svg>
+              </div>
+              <div class="value-text">
+                <h3 class="value-title">Our Vision</h3>
+                <p class="value-desc">To be a leading partner in research and analytics, driving evidence-based impact.</p>
+              </div>
+            </div>
+
+            <div class="value-item">
+              <div class="value-icon icon-peach">
+                <!-- Handshake / Values Icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              </div>
+              <div class="value-text">
+                <h3 class="value-title">Our Values</h3>
+                <p class="value-desc">Integrity, Quality, Collaboration, and Continuous Learning.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- About Visual & Quote Overlay (Right Column) -->
+        <div class="about-visual">
+          <div class="about-still-life">
+            <div class="still-life-card">
+              <!-- Illustrated Books and Vase Setup -->
+              <div class="study-vase">
+                <div class="vase-stem stem-1"></div>
+                <div class="vase-stem stem-2"></div>
+                <div class="vase-pot"></div>
+              </div>
+              <div class="study-books">
+                <div class="book book-1"></div>
+                <div class="book book-2"></div>
+                <div class="book book-3"></div>
+              </div>
+            </div>
+            
+            <!-- Dark Teal Floating Quote Box -->
+            <div class="quote-card">
+              <div class="quote-mark">&ldquo;</div>
+              <p class="quote-text">
+                We believe that quality research has the power to transform society.
+              </p>
+              <div class="quote-accent-line"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+       FOOTER
+  =============================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand">
+        <div class="logo-icon-footer">
+          <img src="images/Company logo.png" alt="Writeon Research and Analytics Logo" class="footer-logo-img">
+        </div>
+        <span class="footer-brand-title">Writeon Research and Analytics (P.) Ltd.</span>
+        <p class="footer-tagline">Insight. Analysis. Impact.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Writeon Research and Analytics (P.) Ltd. All rights reserved. | Budhanilkantha, Kathmandu, Nepal</p>
+      </div>
+
+    </div>
+  </footer>
+
+  
+
+  <!-- Custom JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | Writeon Research and Analytics (P.) Ltd.</title>
+  
+  <!-- Official Favicon Suite -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=2">
+  <link rel="shortcut icon" href="images/favicon.ico?v=2">
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==============================================
+       HEADER / NAVBAR
+  =============================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" aria-label="Writeon Research and Analytics Home">
+        <div class="logo-icon">
+          <img src="images/Company logo.png" alt="Writeon Research and Analytics Logo" class="brand-logo-img">
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Writeon Research</span>
+          <span class="logo-sub">AND ANALYTICS (P.) LTD.</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link ">Home</a>
+        <a href="about.html" class="nav-link ">About</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="contact.html" class="nav-link ">Contact</a>
+      </nav>
+
+      <!-- Header CTA Button -->
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-pill">
+          Get in Touch <span class="arrow">&rarr;</span>
+        </a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html" class="mobile-nav-link ">Home</a>
+      <a href="about.html" class="mobile-nav-link ">About</a>
+      <a href="services.html" class="mobile-nav-link active">Services</a>
+      <a href="contact.html" class="mobile-nav-link ">Contact</a>
+      <a href="contact.html" class="btn btn-primary btn-pill mobile-cta">Get in Touch &rarr;</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 20 Full-Website Background Animation: Fixed Viewport Research Data & Wave Canvas -->
+    <canvas id="siteAmbientCanvas" class="site-ambient-canvas" aria-hidden="true"></canvas>
+
+    <section class="section services-section" id="services">
+      <!-- Background Shapes -->
+      <div class="bg-shape blob-sage blob-services liquid-blob-2"></div>
+
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="eyebrow-tag">OUR SERVICES</div>
+          <h2 class="section-title">
+            Comprehensive Solutions for Every Stage of <span class="text-accent">Research</span>
+          </h2>
+          <p class="section-subtitle">
+            From conceptualization to completion, we support you with the expertise and tools you need.
+          </p>
+        </div>
+
+        <!-- 6 Main Services Grid with Interactive Sub-Services Drawers -->
+        <div class="services-grid services-grid-6">
+          
+          <!-- Service Card 1: Research Services -->
+          <div class="service-card service-theme-research" data-service="research">
+            <div class="service-card-header">
+              <div class="service-card-topbar">
+                <div class="service-icon icon-research">
+                  <!-- Compass / Exploration & Methodology Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                </div>
+                <span class="service-badge">16+ Specializations</span>
+              </div>
+              <h3 class="service-title">Research Services</h3>
+              <p class="service-desc">
+                Comprehensive research design, protocol development, sampling methodology, and rigorous data management planning.
+              </p>
+            </div>
+
+            <!-- Interactive Toggle Trigger -->
+            <button class="service-toggle-btn" type="button" aria-expanded="false" aria-controls="subservices-research">
+              <span class="toggle-btn-main">
+                <span class="toggle-action-label">Explore Sub-Services</span>
+                <span class="toggle-count-pill">16+ items</span>
+              </span>
+              <span class="toggle-icon-bubble">
+                <svg class="toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+
+            <!-- Collapsible Sub-Services Drawer -->
+            <div class="service-drawer" id="subservices-research">
+              <div class="service-drawer-inner">
+                <div class="drawer-header-strip">
+                  <span class="drawer-heading">Research Capabilities & Methodology</span>
+                  <span class="drawer-tag">Full Scope</span>
+                </div>
+                <ul class="subservices-list">
+                  <li class="subservice-item" style="--idx: 1;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research question development and refinement</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 2;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research proposal development</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 3;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research protocol development</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 4;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research methodology consultation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 5;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Literature review and evidence mapping</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 6;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Systematic and scoping review support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 7;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Questionnaire and survey design</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 8;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Interview and focus-group guide development</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 9;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Qualitative research design</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 10;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Quantitative research design</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 11;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Mixed-method research design</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 12;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Sampling strategy</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 13;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Sample-size calculation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 14;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Data collection planning and coordination</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 15;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Pilot study design and support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 16;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research data management planning</span>
+                  </li>
+                  <li class="subservice-item subservice-item-more" style="--idx: 17;">
+                    <span class="subservice-check check-more"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg></span>
+                    <span class="subservice-name subservice-more-name">
+                      <strong>And many more...</strong> Tailored research design, protocols, and custom methodology solutions.
+                    </span>
+                  </li>
+                </ul>
+                <div class="drawer-action-strip">
+                  <a href="contact.html" class="drawer-action-link">
+                    Inquire about Research Services <span class="arrow">&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Card 2: Qualitative Data Services -->
+          <div class="service-card service-theme-qualitative" data-service="qualitative">
+            <div class="service-card-header">
+              <div class="service-card-topbar">
+                <div class="service-icon icon-qualitative">
+                  <!-- Audio & Narrative Transcription Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 10h.01"/><path d="M12 10h.01"/><path d="M16 10h.01"/></svg>
+                </div>
+                <span class="service-badge">17+ Specializations</span>
+              </div>
+              <h3 class="service-title">Qualitative Data Services</h3>
+              <p class="service-desc">
+                High-fidelity audio transcription, certified bilingual translation, codebook synthesis, and research-ready thematic analysis.
+              </p>
+            </div>
+
+            <!-- Interactive Toggle Trigger -->
+            <button class="service-toggle-btn" type="button" aria-expanded="false" aria-controls="subservices-qualitative">
+              <span class="toggle-btn-main">
+                <span class="toggle-action-label">Explore Sub-Services</span>
+                <span class="toggle-count-pill">17+ items</span>
+              </span>
+              <span class="toggle-icon-bubble">
+                <svg class="toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+
+            <!-- Collapsible Sub-Services Drawer -->
+            <div class="service-drawer" id="subservices-qualitative">
+              <div class="service-drawer-inner">
+                <div class="drawer-header-strip">
+                  <span class="drawer-heading">Transcription, Translation & Qualitative Analysis</span>
+                  <span class="drawer-tag">Full Scope</span>
+                </div>
+                <ul class="subservices-list">
+                  <li class="subservice-item" style="--idx: 1;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Audio transcription</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 2;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Verbatim transcription</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 3;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Intelligent/clean transcription</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 4;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Nepali–English translation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 5;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">English–Nepali translation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 6;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Back-translation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 7;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Speaker identification</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 8;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Interview-question-wise organization</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 9;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Transcript cleaning and proofreading</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 10;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Codebook development</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 11;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Qualitative coding</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 12;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Thematic analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 13;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Content analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 14;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Framework analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 15;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Cross-case analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 16;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Qualitative findings synthesis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 17;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research-ready qualitative reports</span>
+                  </li>
+                  <li class="subservice-item subservice-item-more" style="--idx: 18;">
+                    <span class="subservice-check check-more"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg></span>
+                    <span class="subservice-name subservice-more-name">
+                      <strong>And many more...</strong> Specialized transcription formats, bilingual translations, and qualitative syntheses.
+                    </span>
+                  </li>
+                </ul>
+                <div class="drawer-action-strip">
+                  <a href="contact.html" class="drawer-action-link">
+                    Inquire about Qualitative Services <span class="arrow">&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Card 3: Quantitative Data Analytics -->
+          <div class="service-card service-theme-quantitative" data-service="quantitative">
+            <div class="service-card-header">
+              <div class="service-card-topbar">
+                <div class="service-icon icon-quantitative">
+                  <!-- Charts & Advanced Statistical Tools Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><path d="M3 20h18"/><path d="m4 10 5-5 5 5 6-6"/></svg>
+                </div>
+                <span class="service-badge">20+ Analytics Tools</span>
+              </div>
+              <h3 class="service-title">Quantitative Data Analytics</h3>
+              <p class="service-desc">
+                Data validation, inferential testing, multivariable regression models, psychometric reliability, and SPSS/R/Stata consulting.
+              </p>
+            </div>
+
+            <!-- Interactive Toggle Trigger -->
+            <button class="service-toggle-btn" type="button" aria-expanded="false" aria-controls="subservices-quantitative">
+              <span class="toggle-btn-main">
+                <span class="toggle-action-label">Explore Sub-Services</span>
+                <span class="toggle-count-pill">20+ items</span>
+              </span>
+              <span class="toggle-icon-bubble">
+                <svg class="toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+
+            <!-- Collapsible Sub-Services Drawer -->
+            <div class="service-drawer" id="subservices-quantitative">
+              <div class="service-drawer-inner">
+                <div class="drawer-header-strip">
+                  <span class="drawer-heading">Statistical Modeling & Data Analytics</span>
+                  <span class="drawer-tag">Full Scope</span>
+                </div>
+                <ul class="subservices-list">
+                  <li class="subservice-item" style="--idx: 1;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Data entry and data coding</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 2;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Data cleaning and validation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 3;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Missing-data assessment</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 4;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Descriptive statistics</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 5;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Frequency and percentage analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 6;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Measures of central tendency and dispersion</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 7;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Cross-tabulation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 8;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Chi-square tests</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 9;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">t-tests</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 10;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">ANOVA</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 11;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Correlation analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 12;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Linear regression</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 13;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Logistic regression</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 14;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Multivariable analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 15;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Reliability analysis (e.g., Cronbach's alpha)</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 16;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Validity-related statistical support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 17;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Epidemiological analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 18;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Data visualization</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 19;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Statistical interpretation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 20;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">SPSS/R/Stata-based analysis where applicable</span>
+                  </li>
+                  <li class="subservice-item subservice-item-more" style="--idx: 21;">
+                    <span class="subservice-check check-more"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg></span>
+                    <span class="subservice-name subservice-more-name">
+                      <strong>And many more...</strong> Advanced statistical modeling, econometric tests, and customized data analytics.
+                    </span>
+                  </li>
+                </ul>
+                <div class="drawer-action-strip">
+                  <a href="contact.html" class="drawer-action-link">
+                    Inquire about Quantitative Analytics <span class="arrow">&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Card 4: Academic & Publication Support -->
+          <div class="service-card service-theme-academic" data-service="academic">
+            <div class="service-card-header">
+              <div class="service-card-topbar">
+                <div class="service-icon icon-academic">
+                  <!-- Book & Academic Quill / Manuscript Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><path d="M12 6v6"/><path d="M9 9h6"/></svg>
+                </div>
+                <span class="service-badge">13+ Support Tracks</span>
+              </div>
+              <h3 class="service-title">Academic & Publication Support</h3>
+              <p class="service-desc">
+                Manuscript drafting, journal formatting, citation management, statistical peer-review, and response-to-reviewers advisory.
+              </p>
+            </div>
+
+            <!-- Interactive Toggle Trigger -->
+            <button class="service-toggle-btn" type="button" aria-expanded="false" aria-controls="subservices-academic">
+              <span class="toggle-btn-main">
+                <span class="toggle-action-label">Explore Sub-Services</span>
+                <span class="toggle-count-pill">13+ items</span>
+              </span>
+              <span class="toggle-icon-bubble">
+                <svg class="toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+
+            <!-- Collapsible Sub-Services Drawer -->
+            <div class="service-drawer" id="subservices-academic">
+              <div class="service-drawer-inner">
+                <div class="drawer-header-strip">
+                  <span class="drawer-heading">Dissertation, Manuscript & Editorial Advisory</span>
+                  <span class="drawer-tag">Full Scope</span>
+                </div>
+                <ul class="subservices-list">
+                  <li class="subservice-item" style="--idx: 1;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Thesis/dissertation research support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 2;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Synopsis and proposal support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 3;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research manuscript preparation support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 4;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Manuscript language editing</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 5;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Journal formatting</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 6;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Reference formatting and reference-management support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 7;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Statistical review</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 8;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research poster preparation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 9;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Conference abstract preparation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 10;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Conference presentation support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 11;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Response-to-reviewers support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 12;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Publication-readiness assessment</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 13;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Systematic-review support</span>
+                  </li>
+                  <li class="subservice-item subservice-item-more" style="--idx: 14;">
+                    <span class="subservice-check check-more"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg></span>
+                    <span class="subservice-name subservice-more-name">
+                      <strong>And many more...</strong> Dedicated thesis guidance, journal peer-review advisory, and publication support.
+                    </span>
+                  </li>
+                </ul>
+                <div class="drawer-action-strip">
+                  <a href="contact.html" class="drawer-action-link">
+                    Inquire about Academic Support <span class="arrow">&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Card 5: Business & Market Research -->
+          <div class="service-card service-theme-business" data-service="business">
+            <div class="service-card-header">
+              <div class="service-card-topbar">
+                <div class="service-icon icon-business">
+                  <!-- Market Target & Strategic Insights Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                </div>
+                <span class="service-badge">16+ Solutions</span>
+              </div>
+              <h3 class="service-title">Business & Market Research</h3>
+              <p class="service-desc">
+                Consumer behavior studies, market segmentation, competitor benchmarks, KAP surveys, and program impact assessments.
+              </p>
+            </div>
+
+            <!-- Interactive Toggle Trigger -->
+            <button class="service-toggle-btn" type="button" aria-expanded="false" aria-controls="subservices-business">
+              <span class="toggle-btn-main">
+                <span class="toggle-action-label">Explore Sub-Services</span>
+                <span class="toggle-count-pill">16+ items</span>
+              </span>
+              <span class="toggle-icon-bubble">
+                <svg class="toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+
+            <!-- Collapsible Sub-Services Drawer -->
+            <div class="service-drawer" id="subservices-business">
+              <div class="service-drawer-inner">
+                <div class="drawer-header-strip">
+                  <span class="drawer-heading">Consumer Analytics & Market Strategy</span>
+                  <span class="drawer-tag">Full Scope</span>
+                </div>
+                <ul class="subservices-list">
+                  <li class="subservice-item" style="--idx: 1;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Market research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 2;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Consumer behavior research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 3;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Customer satisfaction studies</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 4;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Customer experience research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 5;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Brand perception studies</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 6;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Competitor analysis</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 7;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Market segmentation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 8;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Product/service feedback studies</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 9;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Feasibility studies</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 10;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">KAP (Knowledge, Attitude and Practice) surveys</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 11;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Employee satisfaction surveys</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 12;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Organizational research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 13;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Social-impact assessment</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 14;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Program evaluation</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 15;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Baseline and endline surveys</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 16;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Impact assessment</span>
+                  </li>
+                  <li class="subservice-item subservice-item-more" style="--idx: 17;">
+                    <span class="subservice-check check-more"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg></span>
+                    <span class="subservice-name subservice-more-name">
+                      <strong>And many more...</strong> Bespoke industry intelligence, customer analytics, and strategic market studies.
+                    </span>
+                  </li>
+                </ul>
+                <div class="drawer-action-strip">
+                  <a href="contact.html" class="drawer-action-link">
+                    Inquire about Market Research <span class="arrow">&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Card 6: Institutional Research & Consulting -->
+          <div class="service-card service-theme-institutional" data-service="institutional">
+            <div class="service-card-header">
+              <div class="service-card-topbar">
+                <div class="service-icon icon-institutional">
+                  <!-- Institutional Columns & Governance Icon -->
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M3 10h18"/><path d="M5 6l7-3 7 3"/><path d="M4 10v11"/><path d="M20 10v11"/><path d="M8 14v4"/><path d="M12 14v4"/><path d="M16 14v4"/></svg>
+                </div>
+                <span class="service-badge">15+ Frameworks</span>
+              </div>
+              <h3 class="service-title">Institutional Research & Consulting</h3>
+              <p class="service-desc">
+                Specialized consulting for NGOs, INGOs, public health, education policy, M&E frameworks, and strategic governance.
+              </p>
+            </div>
+
+            <!-- Interactive Toggle Trigger -->
+            <button class="service-toggle-btn" type="button" aria-expanded="false" aria-controls="subservices-institutional">
+              <span class="toggle-btn-main">
+                <span class="toggle-action-label">Explore Sub-Services</span>
+                <span class="toggle-count-pill">15+ items</span>
+              </span>
+              <span class="toggle-icon-bubble">
+                <svg class="toggle-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+
+            <!-- Collapsible Sub-Services Drawer -->
+            <div class="service-drawer" id="subservices-institutional">
+              <div class="service-drawer-inner">
+                <div class="drawer-header-strip">
+                  <span class="drawer-heading">Institutional Advisory & Policy Research</span>
+                  <span class="drawer-tag">Full Scope</span>
+                </div>
+                <ul class="subservices-list">
+                  <li class="subservice-item" style="--idx: 1;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">NGO/INGO research support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 2;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Healthcare research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 3;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Public-health research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 4;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Education research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 5;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Policy research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 6;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Social research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 7;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Monitoring & Evaluation (M&E)</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 8;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Needs assessments</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 9;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Community assessments</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 10;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Institutional surveys</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 11;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Employee/HR analytics</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 12;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">CSR/ESG research</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 13;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Grant and proposal research support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 14;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Data-driven decision-making support</span>
+                  </li>
+                  <li class="subservice-item" style="--idx: 15;">
+                    <span class="subservice-check"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd"/></svg></span>
+                    <span class="subservice-name">Research strategy consulting</span>
+                  </li>
+                  <li class="subservice-item subservice-item-more" style="--idx: 16;">
+                    <span class="subservice-check check-more"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z"/></svg></span>
+                    <span class="subservice-name subservice-more-name">
+                      <strong>And many more...</strong> Dedicated institutional frameworks, public sector evaluations, and M&E advisory.
+                    </span>
+                  </li>
+                </ul>
+                <div class="drawer-action-strip">
+                  <a href="contact.html" class="drawer-action-link">
+                    Inquire about Institutional Consulting <span class="arrow">&rarr;</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==============================================
+       FOOTER
+  =============================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      
+      <div class="footer-brand">
+        <div class="logo-icon-footer">
+          <img src="images/Company logo.png" alt="Writeon Research and Analytics Logo" class="footer-logo-img">
+        </div>
+        <span class="footer-brand-title">Writeon Research and Analytics (P.) Ltd.</span>
+        <p class="footer-tagline">Insight. Analysis. Impact.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Writeon Research and Analytics (P.) Ltd. All rights reserved. | Budhanilkantha, Kathmandu, Nepal</p>
+      </div>
+
+    </div>
+  </footer>
+
+  
+
+  <!-- Custom JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
