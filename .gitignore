@@ -1,0 +1,6 @@
+# Ignore all images and media assets
+images/
+*.png
+*.jpg
+*.jpeg
+*.ico
